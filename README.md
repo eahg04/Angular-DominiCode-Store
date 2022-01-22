@@ -1,3 +1,6 @@
+Angular Store
+![1](https://user-images.githubusercontent.com/66522993/150657541-6084266d-956d-4ef8-a4b3-8ea84782e3b8.png)
+
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
