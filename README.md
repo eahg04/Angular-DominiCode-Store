@@ -1,4 +1,6 @@
 Angular Store
+![2](https://user-images.githubusercontent.com/66522993/150678350-717ca027-cc10-4dc4-8d58-8c13efecbc6a.png)
+
 ![1](https://user-images.githubusercontent.com/66522993/150657541-6084266d-956d-4ef8-a4b3-8ea84782e3b8.png)
 
 # Store
