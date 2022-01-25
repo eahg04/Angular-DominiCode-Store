@@ -5,6 +5,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   exports: [
@@ -14,6 +16,8 @@ import { MatRadioModule } from '@angular/material/radio';
     MatIconModule,
     MatFormFieldModule,
     MatRadioModule,
+    MatInputModule,
+    MatSelectModule,
   ],
 })
 export class MaterialModule {}

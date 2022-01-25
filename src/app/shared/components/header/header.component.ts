@@ -1,5 +1,5 @@
-import { ShoppingCartService } from './../../services/shopping-cart.service';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  quantity$ = this.shoppingCartSvc.quantityAction$;
-  total$ = this.shoppingCartSvc.totalAction$;
-  cart$ = this.shoppingCartSvc.cartAction$;
+  constructor(private router: Router) {}
 
-  constructor(private shoppingCartSvc: ShoppingCartService) {}
+  goToCheckout(): void {
+    this.router.navigate(['/checkout']);
+  }
 }

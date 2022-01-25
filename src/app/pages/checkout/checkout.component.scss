@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 5rem;
+
+  .item {
+    flex: 1 1 auto;
+  }
+  .form {
+    width: 100%;
+  }
+
+  .form__element {
+    padding: 5px 0px 25px 2px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+}
+
+.container__button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 40%;
+
+  button {
+    width: 100%;
+  }
+}
